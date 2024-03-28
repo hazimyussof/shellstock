@@ -23,5 +23,5 @@
 
 **ShellStock** is crafted to deliver a user-friendly experience for those who prefer the control and flexibility of a command line environment, making inventory management a breeze.
 
-# Licence
-Copyright (c) 2024 - Hazim Yussof
+# License
+[MIT License](LICENSE.md) - Copyright (c) 2024 Hazim Yussof

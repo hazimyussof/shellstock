@@ -1,3 +1,10 @@
+___
+> [!IMPORTANT]
+> ***As long as this alert is here, this project is incomplete and is under construction.*** 🚧
+___
+
+ <br><br>
+
 ![shellstock](https://github.com/hazimyussof/shellstock/assets/56122446/e62e9da3-6716-4873-b474-ecb5e241314a)
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496.96 90.23">
 
@@ -24,4 +31,6 @@
 **ShellStock** is crafted to deliver a user-friendly experience for those who prefer the control and flexibility of a command line environment, making inventory management a breeze.
 
 # License
-[MIT License](LICENSE.md) - Copyright (c) 2024 Hazim Yussof
+[MIT License](LICENSE.md)
+
+Copyright (c) 2024 Hazim Yussof

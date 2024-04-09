@@ -1,3 +1,3 @@
 #pragma once
 
-void getopt(int argc, char **argv);
+void getopt_out(int argc, char *argv[]);

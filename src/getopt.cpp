@@ -1,41 +1,28 @@
-#include <ctype.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "./../include/usage.h"
+#include <iostream>
+#include <string>
 #include <unistd.h>
+#include <vector>
 
-void getopt(int argc, char **argv) {
-  int aflag = 0;
-  int bflag = 0;
-  char *cvalue = NULL;
-  int index;
-  int c;
+// using std::cerr;
+using std::cout;
+using std::endl;
+using std::string;
+using std::vector;
 
-  opterr = 0;
+// void handle_auth_login(const vector<string> &args) {}
 
-  while ((c = getopt(argc, argv, "abc:")) != -1)
-    switch (c) {
-    case 'a':
-      aflag = 1;
-      break;
-    case 'b':
-      bflag = 1;
-      break;
-    case 'c':
-      cvalue = optarg;
-      break;
-    case '?':
-      if (optopt == 'c')
-        fprintf(stderr, "Option -%c requires an argument.\n", optopt);
-      else if (isprint(optopt))
-        fprintf(stderr, "Unknown option `-%c'.\n", optopt);
-      else
-        fprintf(stderr, "Unknown option character `\\x%x'.\n", optopt);
-    default:
-      abort();
-    }
+// void handle_command(const string &command, const vector<string> &args) {}
 
-  printf("aflag = %d, bflag = %d, cvalue = %s\n", aflag, bflag, cvalue);
+void getopt_out(int argc, char *argv[]) {
 
-  for (index = optind; index < argc; index++)
-    printf("Non-option argument %s\n", argv[index]);
+  if (argc < 2) {
+    general_usage();
+    exit(1);
+  }
+
+  vector<string> args(argv + 1, argv + argc);
+
+  cout << "argument count: " << argc << " argument: " << argv[optind] << endl;
+  cout << args[0] << endl;
 }

@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "ftxui-populate-prefix/tmp/ftxui-populate-mkdirs.cmake"
-  "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeInitializeConfigs.cmake"
-  "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeSystem.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/opt/homebrew/Cellar/cmake/3.29.1/share/cmake/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.29.1/CMakeSystem.cmake"
   "ftxui-populate-prefix/tmp/ftxui-populate-mkdirs.cmake"
   "ftxui-populate-prefix/tmp/ftxui-populate-gitclone.cmake"
   "ftxui-populate-prefix/src/ftxui-populate-stamp/ftxui-populate-gitinfo.txt"

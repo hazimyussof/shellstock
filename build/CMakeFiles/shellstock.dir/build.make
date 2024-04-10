@@ -124,6 +124,11 @@ shellstock: CMakeFiles/shellstock.dir/src/getopt.cpp.o
 shellstock: CMakeFiles/shellstock.dir/src/main.cpp.o
 shellstock: CMakeFiles/shellstock.dir/src/usage.cpp.o
 shellstock: CMakeFiles/shellstock.dir/build.make
+shellstock: _deps/ftxui-build/libftxui-screen.a
+shellstock: _deps/ftxui-build/libftxui-dom.a
+shellstock: _deps/ftxui-build/libftxui-component.a
+shellstock: _deps/ftxui-build/libftxui-dom.a
+shellstock: _deps/ftxui-build/libftxui-screen.a
 shellstock: CMakeFiles/shellstock.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lortnoc/Developer/GitHub/shellstock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable shellstock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shellstock.dir/link.txt --verbose=$(VERBOSE)
